@@ -19,7 +19,7 @@ for(let select of dropdowns)
             newOption.selected = "selected";
         }
 
-        if(select.name === "To" && newOption.innerText === "PKR")
+        if(select.name === "to" && newOption.innerText === "PKR")
         {
             newOption.selected = "selected";
         }
